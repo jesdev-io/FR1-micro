@@ -20,7 +20,13 @@ unity/
 
 # Docs
 doc/
+
+# Hardware is versioned; retain the shared-hardware submodule path.
 hw/
+!hw/
+hw/*
+!hw/common/
+!hw/common/**
 
 # Source (keep in lib/ and shared/)
 src/

@@ -1,0 +1,3 @@
+[submodule "hw/common"]
+	path = hw/common
+	url = ssh://git@codeberg.org/jesdev-io/hwFRX.git
