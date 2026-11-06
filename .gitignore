@@ -27,6 +27,8 @@ hw/
 hw/*
 !hw/common/
 !hw/common/**
+!hw/sym-lib-table
+!hw/fp-lib-table
 
 # Source (keep in lib/ and shared/)
 src/

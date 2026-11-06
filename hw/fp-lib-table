@@ -1,0 +1,10 @@
+(fp_lib_table
+  (version 7)
+  (lib
+    (name "IM72D128V01XTMA1")
+    (type "KiCad")
+    (uri "${KIPRJMOD}/components/LIB_IM72D128V01XTMA1/IM72D128V01XTMA1/KiCad")
+    (options "")
+    (descr "IM72D128V01XTMA1 microphone footprint")
+  )
+)
