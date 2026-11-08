@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "f94ee6fd-d50e-4706-9ad4-8d4255df4db9")
 	(paper "A3")
+	(title_block
+		(title "FR1-micro")
+		(date "2026-11-08")
+		(rev "1")
+		(company "jesdev.io")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
@@ -5167,6 +5173,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VBUS"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 313.69 49.53)
@@ -6884,6 +7029,16 @@
 		)
 		(uuid "ff83cfb1-6b21-49c0-ba6e-e77ed8d6c8e6")
 	)
+	(label "{SCL SDA}"
+		(at 63.5 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ab023ae-40fc-4ae0-8aa0-400a2771829b")
+	)
 	(label "SDA"
 		(at 66.04 217.17 0)
 		(effects
@@ -6893,6 +7048,16 @@
 			(justify left bottom)
 		)
 		(uuid "20829fc1-3360-42a2-80a8-75dff7121222")
+	)
+	(label "{SCL SDA}"
+		(at 63.5 214.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d721aeb-979f-46cc-a011-bb69651162e1")
 	)
 	(label "DAT3"
 		(at 66.04 238.76 0)
@@ -6923,6 +7088,16 @@
 			(justify left bottom)
 		)
 		(uuid "84e9a8c8-07dd-49e8-8b82-1354c60983fc")
+	)
+	(label "{DAT1 DAT0 CLK CMD DAT3 DAT2}"
+		(at 63.5 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "87d59827-4a4e-4f47-b8af-64844955bbae")
 	)
 	(label "SCL"
 		(at 66.04 219.71 0)
@@ -7221,30 +7396,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "VBUS"
-		(shape output)
-		(at 48.26 26.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2bd7ecf1-1e65-4102-bde0-ee1e16f401b9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.1438 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -7797,30 +7948,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "VBUS"
-		(shape input)
-		(at 48.26 147.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7b373455-f935-40f3-8d95-80cae089fa47")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.1438 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -8724,7 +8851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02d934e0-ca13-4754-8d2e-58d340607302")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR018"
 			(at 149.86 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -8784,7 +8911,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR016")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -8802,7 +8929,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "048a0a6d-e296-4cbc-8ad9-3b5507f0440f")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR035"
 			(at 317.5 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -8862,7 +8989,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR032")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -8981,7 +9108,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Battery:BatteryHolder_Keystone_3002_1x2032"
 			(at 205.994 214.63 90)
 			(hide yes)
 			(show_name no)
@@ -9175,7 +9302,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm"
 			(at 325.12 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -9237,7 +9364,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e87c87d-b4c6-44eb-b161-c48d0ba94d65")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR015"
 			(at 139.7 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -9298,7 +9425,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR013")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9336,7 +9463,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx31-2LFS"
 			(at 62.23 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -9395,7 +9522,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "10152bb9-ec15-4c50-8b71-8b978df97462")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR042"
 			(at 356.87 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -9456,7 +9583,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR039")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -9908,7 +10035,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ca549c5-03bc-4d8c-9e89-21457ec27ffa")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR019"
 			(at 149.86 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -9968,7 +10095,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR017")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -10065,7 +10192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2079708f-319e-4c4d-8110-3303cbb4b0b9")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR06"
 			(at 54.61 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -10126,7 +10253,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR04")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -10143,7 +10270,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2221d6d7-3d88-494a-a529-f2542729a6f4")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR034"
 			(at 317.5 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -10204,7 +10331,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR031")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -10222,7 +10349,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "258a42d0-d656-4aff-a6f9-fb23aa87e9d4")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR044"
 			(at 373.38 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -10283,7 +10410,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR041")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -10301,7 +10428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25aad21f-0708-4dce-8d2e-087ec40829ef")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR07"
 			(at 68.58 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -10361,7 +10488,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR05")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -10378,7 +10505,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a40d1b5-8f51-47d6-b706-af44646ee9b2")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR04"
 			(at 44.45 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -10439,7 +10566,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR02")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -10456,7 +10583,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b9c1ce2-6751-4370-a112-31db40ad9cff")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR014"
 			(at 139.7 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -10517,7 +10644,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR012")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -10675,6 +10802,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 48.26 147.32 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34d20bd7-b6c5-406b-ad83-aa6cf68813a9")
+		(property "Reference" "#PWR03"
+			(at 44.45 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 52.07 147.3199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 48.26 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "49b6054b-36cb-4a12-a5ce-5ba93dc98532")
+		)
+		(instances
+			(project "fr1_micro"
+				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 139.7 154.94 180)
 		(unit 1)
@@ -10767,7 +10973,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "36d42d52-3090-4944-bd75-00feeb63a20e")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR038"
 			(at 325.12 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -10828,7 +11034,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR035")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -10927,7 +11133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b272cc1-a6c5-4487-85d3-03ab62ebe6f8")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR046"
 			(at 373.38 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -10988,7 +11194,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR043")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -11005,7 +11211,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c8a7018-9149-43bf-bee7-3a81f8339dc0")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR036"
 			(at 321.31 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -11066,7 +11272,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR033")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -11164,7 +11370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e497fad-d6e7-41d6-be31-00c75bdce931")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR010"
 			(at 119.38 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -11225,7 +11431,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR08")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -11265,7 +11471,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm"
 			(at 317.5 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -11328,7 +11534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44693d15-70ac-4f77-b1c4-890f1e8e661d")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR039"
 			(at 325.12 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -11388,7 +11594,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR036")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -11527,7 +11733,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "463d8e98-b8e6-4eb8-8fd2-bdabff7c053e")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR024"
 			(at 223.52 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -11588,7 +11794,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR021")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -11923,7 +12129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55763f3f-908e-4b02-9bc4-d180ba2a844e")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR09"
 			(at 119.38 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -11984,7 +12190,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR07")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -12080,7 +12286,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "57242390-af61-4d00-b165-d90f5cf1eb6b")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR040"
 			(at 347.98 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -12141,7 +12347,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR037")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -12263,7 +12469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm"
 			(at 321.31 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -12325,7 +12531,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "647f1bf0-68d4-43f3-a280-af25c7cf19d7")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR011"
 			(at 133.35 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -12386,7 +12592,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR09")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -12424,7 +12630,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx73PSMTR"
 			(at 133.35 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -12484,7 +12690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6627ed0a-c114-4b25-8359-92902fd3cdfa")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR020"
 			(at 149.86 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -12544,7 +12750,86 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR018")
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 48.26 26.67 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70d378cc-7f74-42fd-b12e-23b02a038d69")
+		(property "Reference" "#PWR02"
+			(at 44.45 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 52.07 26.6699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 48.26 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7924a82f-65cc-448a-83b2-1528aec6d538")
+		)
+		(instances
+			(project "fr1_micro"
+				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -12562,7 +12847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73d4b216-a040-4b30-a9bb-b8d920f0afd1")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR033"
 			(at 313.69 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -12622,7 +12907,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR030")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -12639,7 +12924,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "74ed0657-bf0d-436b-ae00-8da788171a57")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR045"
 			(at 363.22 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -12700,7 +12985,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR042")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -12718,7 +13003,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c6c14bc-8c3f-4f1f-a6a9-4e53ee4ca99b")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR08"
 			(at 119.38 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -12779,7 +13064,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR06")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -12797,7 +13082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87bd25d0-976a-47d9-a771-b906e0b0b044")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR027"
 			(at 246.38 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -12858,7 +13143,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR024")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -12876,7 +13161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8829c9ac-6cf4-4417-9057-0c96bc3c5562")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR041"
 			(at 347.98 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -12936,7 +13221,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR038")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -12953,7 +13238,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c2c9b6d-3737-4378-a24d-455404d715a4")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR05"
 			(at 44.45 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -13014,7 +13299,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR03")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -13031,7 +13316,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c503a49-d6d3-4731-ba0e-57b66e892cf9")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR028"
 			(at 270.51 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -13092,7 +13377,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR025")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -13272,7 +13557,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92b514cd-8689-4ad1-9a05-481dfd2e63b0")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR013"
 			(at 139.7 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -13332,7 +13617,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR011")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -13511,7 +13796,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "98a51b76-da90-4647-b6b7-63c08d994c5f")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR030"
 			(at 314.96 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -13572,7 +13857,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR027")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -13590,7 +13875,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9caec065-8ac6-4714-be2d-d89a845dbad1")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR021"
 			(at 190.5 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -13651,7 +13936,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR019")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -13669,7 +13954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be653bd9-d5b8-47bf-8ec4-640d89fe3dbf")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR037"
 			(at 321.31 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -13729,7 +14014,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR034")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -13747,7 +14032,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c867d0f9-6431-41c3-b6f1-e49409ab800d")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR032"
 			(at 313.69 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -13807,7 +14092,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR029")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -13824,7 +14109,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd3aa746-6fbc-48ce-854b-a6697d806672")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR025"
 			(at 228.6 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -13885,7 +14170,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR022")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -13923,7 +14208,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx73PSMTR"
 			(at 133.35 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -14002,7 +14287,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0471_1x04-1MP_P1.25mm_Horizontal"
 			(at 127 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -14146,7 +14431,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db5fd13a-75c5-413d-a157-7199bb84a271")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR016"
 			(at 139.7 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -14207,7 +14492,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR014")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -14225,7 +14510,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbeb2224-d18c-49aa-bb94-92a49d7d7e47")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR017"
 			(at 152.4 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -14286,7 +14571,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR015")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -14385,7 +14670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dca05d6d-7de0-4397-b229-e97d3b0817d5")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR022"
 			(at 203.2 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -14446,7 +14731,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR020")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -14463,7 +14748,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd804854-e9cf-402d-830d-5866ff9d7b7f")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR031"
 			(at 314.96 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -14524,7 +14809,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR028")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -14541,7 +14826,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e0bab7f1-468d-404d-9ba2-3c0a8bde805d")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR012"
 			(at 139.7 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -14602,7 +14887,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR010")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -14620,7 +14905,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2413647-a7ab-4688-a612-d4c1d09cfbe3")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR026"
 			(at 228.6 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -14680,7 +14965,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR023")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -15094,7 +15379,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4110"
 			(at 36.83 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -15373,7 +15658,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f7aa18b3-915b-455b-b14d-a64b4fe17f99")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR029"
 			(at 270.51 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -15434,7 +15719,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR026")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -15532,7 +15817,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa0e543e-bcad-47ec-8e15-9db60fbf48ea")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR043"
 			(at 367.03 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -15593,7 +15878,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR040")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -15631,7 +15916,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx73PSMTR"
 			(at 133.35 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -15714,16 +15999,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "BUS_I2C" input
-			(at 46.99 161.29 0)
-			(uuid "69641b57-d490-4c8a-b96f-3045e6b40d08")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "CC1" input
@@ -15809,6 +16084,16 @@
 		(pin "sysVCC_3V3" output
 			(at 46.99 154.94 0)
 			(uuid "0dedff4f-4210-4fb6-b67a-f42efdede423")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{SCL SDA}" bidirectional
+			(at 46.99 161.29 0)
+			(uuid "606d5c11-565e-41a0-b8a8-7d381121f81f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16018,26 +16303,6 @@
 				(justify left top)
 			)
 		)
-		(pin "BUS_I2C" input
-			(at 46.99 214.63 0)
-			(uuid "06d06a37-ab6a-46d6-ac99-ac39ebea21a4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "BUS_SDMMC" input
-			(at 46.99 223.52 0)
-			(uuid "e95f5ce8-0dfa-4ad0-bcae-0c7bd9e3bfa3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "SD_DETECT" input
 			(at 46.99 220.98 0)
 			(uuid "3b153c87-2e75-4f6d-873c-2a0a19776833")
@@ -16061,6 +16326,26 @@
 		(pin "VCC_3V3" input
 			(at 46.99 207.01 0)
 			(uuid "5f6017b4-c6cf-45cd-864d-4f786b709b82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{DAT1 DAT0 CLK CMD DAT3 DAT2}" bidirectional
+			(at 46.99 223.52 0)
+			(uuid "f2c97d50-3fc1-49db-b0bb-f94d8c2608f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{SCL SDA}" bidirectional
+			(at 46.99 214.63 0)
+			(uuid "f85e390f-1d2b-41b8-bcbb-7c3b349e306b")
 			(effects
 				(font
 					(size 1.27 1.27)
