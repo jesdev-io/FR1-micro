@@ -21,14 +21,10 @@ unity/
 # Docs
 doc/
 
-# Hardware is versioned; retain the shared-hardware submodule path.
-hw/
-!hw/
-hw/*
-!hw/common/
-!hw/common/**
-!hw/sym-lib-table
-!hw/fp-lib-table
+# kicad
+*.lck
+*-backups
+components
 
 # Source (keep in lib/ and shared/)
 src/
