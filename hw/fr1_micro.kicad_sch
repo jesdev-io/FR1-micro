@@ -8929,7 +8929,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "048a0a6d-e296-4cbc-8ad9-3b5507f0440f")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR034"
 			(at 317.5 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -8989,7 +8989,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR035")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -9006,7 +9006,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "055e8fff-4057-41eb-854a-567d25e983bd")
-		(property "Reference" "C9"
+		(property "Reference" "C21"
 			(at 316.992 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9070,7 +9070,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "C9")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -9088,7 +9088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a1c6d16-42c5-49ab-9eac-4c64c91e5ec8")
-		(property "Reference" "BT1"
+		(property "Reference" "BT2"
 			(at 206.3115 207.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9183,7 +9183,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "BT1")
+					(reference "BT2")
 					(unit 1)
 				)
 			)
@@ -9200,7 +9200,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e4cda93-1f39-4688-a3ee-fe88445870b8")
-		(property "Reference" "R8"
+		(property "Reference" "R26"
 			(at 247.65 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9262,7 +9262,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "R8")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -9280,7 +9280,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e69d55a-c9c8-4d85-8b35-400434731ebc")
-		(property "Reference" "JP3"
+		(property "Reference" "JP6"
 			(at 322.58 233.6799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9347,7 +9347,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "JP3")
+					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -9522,7 +9522,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "10152bb9-ec15-4c50-8b71-8b978df97462")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR041"
 			(at 356.87 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -9583,7 +9583,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR042")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -9601,7 +9601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "136b7cb1-8910-4448-8505-26378c740395")
-		(property "Reference" "R1"
+		(property "Reference" "R7"
 			(at 142.24 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9665,7 +9665,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "R1")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -9953,7 +9953,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1c96d8f6-c70b-4129-b698-51445f562902")
-		(property "Reference" "C3"
+		(property "Reference" "C9"
 			(at 153.162 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10017,7 +10017,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "C3")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -10112,7 +10112,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1fe09d7f-787f-422b-bce6-55b5350352b5")
-		(property "Reference" "R9"
+		(property "Reference" "R27"
 			(at 247.65 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10174,7 +10174,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "R9")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -10270,7 +10270,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2221d6d7-3d88-494a-a529-f2542729a6f4")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR033"
 			(at 317.5 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -10331,7 +10331,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR034")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -10349,7 +10349,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "258a42d0-d656-4aff-a6f9-fb23aa87e9d4")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR043"
 			(at 373.38 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -10410,7 +10410,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR044")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -10892,7 +10892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35b207a5-c156-4653-b2f0-79daf16865a0")
-		(property "Reference" "R2"
+		(property "Reference" "R10"
 			(at 142.24 153.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10956,7 +10956,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "R2")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -10973,7 +10973,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "36d42d52-3090-4944-bd75-00feeb63a20e")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR037"
 			(at 325.12 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -11034,7 +11034,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR038")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -11051,7 +11051,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39233c96-4cd6-4ed9-8365-3525867f3aa5")
-		(property "Reference" "C2"
+		(property "Reference" "C6"
 			(at 153.162 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11115,7 +11115,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "C2")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -11133,7 +11133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b272cc1-a6c5-4487-85d3-03ab62ebe6f8")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR045"
 			(at 373.38 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -11194,7 +11194,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR046")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -11211,7 +11211,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c8a7018-9149-43bf-bee7-3a81f8339dc0")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR035"
 			(at 321.31 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -11272,7 +11272,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR036")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -11290,7 +11290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d37fcbf-2310-428d-9940-d9b1cab89744")
-		(property "Reference" "R12"
+		(property "Reference" "R30"
 			(at 325.12 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11352,7 +11352,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "R12")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -11449,7 +11449,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "408057d0-78bb-4178-9f1a-e1cae3600a49")
-		(property "Reference" "JP1"
+		(property "Reference" "JP4"
 			(at 314.96 200.6599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11516,7 +11516,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "JP1")
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -11534,7 +11534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44693d15-70ac-4f77-b1c4-890f1e8e661d")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR038"
 			(at 325.12 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -11594,7 +11594,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR039")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -11733,7 +11733,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "463d8e98-b8e6-4eb8-8fd2-bdabff7c053e")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR023"
 			(at 223.52 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -11794,7 +11794,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR024")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -11812,7 +11812,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48425f33-8ee9-4e29-813f-a2e71a160a0b")
-		(property "Reference" "C7"
+		(property "Reference" "C15"
 			(at 219.329 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11874,7 +11874,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "C7")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -11891,7 +11891,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "48fc06a7-1d9d-4ef5-8df0-17a362f71ca8")
-		(property "Reference" "R7"
+		(property "Reference" "R25"
 			(at 209.55 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11953,7 +11953,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "R7")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -11970,7 +11970,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4eca693a-d044-41e4-a3b6-0f682c66503d")
-		(property "Reference" "R5"
+		(property "Reference" "R13"
 			(at 144.78 162.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12032,7 +12032,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "R5")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -12049,7 +12049,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4fd188de-a6bd-44c2-84e5-3c252989298f")
-		(property "Reference" "R4"
+		(property "Reference" "R12"
 			(at 144.78 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12111,7 +12111,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "R4")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -12207,7 +12207,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "55837f09-687f-47c3-bdc4-b4bf52a304f0")
-		(property "Reference" "R6"
+		(property "Reference" "R15"
 			(at 144.78 198.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12269,7 +12269,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "R6")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -12286,7 +12286,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "57242390-af61-4d00-b165-d90f5cf1eb6b")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR039"
 			(at 347.98 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -12347,7 +12347,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR040")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -12365,7 +12365,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59df2c6a-c167-4411-bd4e-497788893c03")
-		(property "Reference" "R3"
+		(property "Reference" "R11"
 			(at 142.24 189.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12429,7 +12429,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "R3")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -12447,7 +12447,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a0c843c-5611-44b1-bd93-7931a3310e1f")
-		(property "Reference" "JP2"
+		(property "Reference" "JP5"
 			(at 318.77 217.1699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12514,7 +12514,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "JP2")
+					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -12610,7 +12610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "658a52fd-4da3-4264-a520-89bb4be6e94a")
-		(property "Reference" "SW4"
+		(property "Reference" "SW5"
 			(at 133.35 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12630,7 +12630,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx73PSMTR"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
 			(at 133.35 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -12672,7 +12672,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "SW4")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -12847,7 +12847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73d4b216-a040-4b30-a9bb-b8d920f0afd1")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR032"
 			(at 313.69 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -12907,7 +12907,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR033")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -12924,7 +12924,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "74ed0657-bf0d-436b-ae00-8da788171a57")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR044"
 			(at 363.22 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -12985,7 +12985,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR045")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -13082,7 +13082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87bd25d0-976a-47d9-a771-b906e0b0b044")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR026"
 			(at 246.38 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -13143,7 +13143,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR027")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -13161,7 +13161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8829c9ac-6cf4-4417-9057-0c96bc3c5562")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR040"
 			(at 347.98 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -13221,7 +13221,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR041")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -13316,7 +13316,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c503a49-d6d3-4731-ba0e-57b66e892cf9")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR027"
 			(at 270.51 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -13377,7 +13377,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR028")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -13394,7 +13394,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d39ec05-3d04-4931-b220-271d81feaf9b")
-		(property "Reference" "C4"
+		(property "Reference" "C11"
 			(at 153.162 199.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13458,7 +13458,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "C4")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -13475,7 +13475,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9190c1e6-d723-4b51-82f4-afa53fc9829a")
-		(property "Reference" "C6"
+		(property "Reference" "C14"
 			(at 219.456 78.232 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13539,7 +13539,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "C6")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -13634,7 +13634,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "97ef9ca9-69b7-4778-b93a-881046ae8b93")
-		(property "Reference" "C1"
+		(property "Reference" "C4"
 			(at 138.43 46.228 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13698,7 +13698,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "C1")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -13715,7 +13715,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "986bf9cc-bd3a-4ddb-b002-3d000dbba295")
-		(property "Reference" "C5"
+		(property "Reference" "C12"
 			(at 207.01 225.552 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13779,7 +13779,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "C5")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -13796,7 +13796,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "98a51b76-da90-4647-b6b7-63c08d994c5f")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR029"
 			(at 314.96 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -13857,7 +13857,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR030")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -13954,7 +13954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be653bd9-d5b8-47bf-8ec4-640d89fe3dbf")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR036"
 			(at 321.31 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -14014,7 +14014,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR037")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -14032,7 +14032,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c867d0f9-6431-41c3-b6f1-e49409ab800d")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR031"
 			(at 313.69 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -14092,7 +14092,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR032")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -14109,7 +14109,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd3aa746-6fbc-48ce-854b-a6697d806672")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR024"
 			(at 228.6 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -14170,7 +14170,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR025")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -14188,7 +14188,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf372114-96f1-414a-b612-2eba0def29e1")
-		(property "Reference" "SW3"
+		(property "Reference" "SW4"
 			(at 133.35 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14208,7 +14208,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx73PSMTR"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
 			(at 133.35 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -14250,7 +14250,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "SW3")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -14267,7 +14267,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d4d7668b-cb42-4dbf-a877-afc99b0e2bc2")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 129.54 58.928 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14335,7 +14335,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -14588,7 +14588,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc2adf9e-4de0-4a72-a91e-59ac5511e856")
-		(property "Reference" "C8"
+		(property "Reference" "C19"
 			(at 316.992 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14652,7 +14652,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "C8")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -14748,7 +14748,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd804854-e9cf-402d-830d-5866ff9d7b7f")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR030"
 			(at 314.96 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -14809,7 +14809,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR031")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -14905,7 +14905,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2413647-a7ab-4688-a612-d4c1d09cfbe3")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR025"
 			(at 228.6 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -14965,7 +14965,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR026")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -14983,7 +14983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2ab5d7e-b440-4683-ab0f-72872ac1503b")
-		(property "Reference" "R10"
+		(property "Reference" "R28"
 			(at 273.05 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15047,7 +15047,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "R10")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -15065,7 +15065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8e4dbea-8e67-4320-93f0-16eac8f67766")
-		(property "Reference" "R11"
+		(property "Reference" "R29"
 			(at 273.05 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15129,7 +15129,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "R11")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -15147,7 +15147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed9f4652-8986-4881-b031-ceca48bcb6c6")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 350.1233 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15253,7 +15253,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -15271,7 +15271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0efbacf-ee8d-4142-89de-a600f1fb5cac")
-		(property "Reference" "D1"
+		(property "Reference" "D5"
 			(at 151.13 77.3998 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15341,7 +15341,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "D1")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -15359,7 +15359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1d16f30-0996-4c11-8c6f-582c2c743617")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 33.02 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15490,7 +15490,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -15658,7 +15658,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f7aa18b3-915b-455b-b14d-a64b4fe17f99")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR028"
 			(at 270.51 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -15719,7 +15719,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR029")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -15737,7 +15737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f87d37cd-a2a0-444e-b47c-10bfef318785")
-		(property "Reference" "R13"
+		(property "Reference" "R31"
 			(at 325.12 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15799,7 +15799,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "R13")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -15817,7 +15817,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa0e543e-bcad-47ec-8e15-9db60fbf48ea")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR042"
 			(at 367.03 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -15878,7 +15878,7 @@
 		(instances
 			(project "fr1_micro"
 				(path "/f94ee6fd-d50e-4706-9ad4-8d4255df4db9"
-					(reference "#PWR043")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -15916,7 +15916,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx73PSMTR"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
 			(at 133.35 118.11 0)
 			(hide yes)
 			(show_name no)
